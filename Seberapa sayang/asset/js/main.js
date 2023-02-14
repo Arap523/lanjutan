@@ -22,7 +22,7 @@ $(document).on('click', '#tombolPopup', function (e) {
         }
     }).then(() => {
         Swal.fire({
-            title: 'jawab yang jujur ya',
+            title: 'jawab yang jujur ya!!',
             showClass: {
                 popup: 'animate__animated animate__jackInTheBox'
             },
@@ -53,7 +53,7 @@ $(document).on('click', '#tombolPopup', function (e) {
                     content: {
                         element: "input",
                         attributes: {
-                            placeholder: "Masukkan nama",
+                            placeholder: "masukkan nama",
                             type: "text",
                             id: "input-field",
                             className: "form-control"
